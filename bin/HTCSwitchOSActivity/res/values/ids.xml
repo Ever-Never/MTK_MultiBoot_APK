@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="imageView">false</item>
+    <item type="id" name="textView_os_name">false</item>
+    <item type="id" name="adsMogoView">false</item>
+    <item type="id" name="bottomlayout">false</item>
+    <item type="id" name="deletebutton">false</item>
+    <item type="id" name="restartbutton">false</item>
+    <item type="id" name="switchbootbutton">false</item>
+    <item type="id" name="listView">false</item>
+</resources>

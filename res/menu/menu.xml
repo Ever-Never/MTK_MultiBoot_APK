@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/setting"
+        android:title="声明">
+    </item>
+    <item
+        android:id="@+id/about"
+        android:title="关于">
+    </item>
+    <item
+        android:id="@+id/comu"
+        android:title="交流群">
+    </item>
+
+    <item
+        android:id="@+id/exit"
+        android:title="exit">
+    </item>
+
+</menu>

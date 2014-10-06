@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HTC多系统切换器 --by Ever_Never</string>
+    <string name="deletebutton">删除</string>
+    <string name="restartbutton">重启</string>
+    <string name="switchbootbutton">切换</string>
+    <string name="select_one_item">请先选一个系统</string>
+    <string name="delete_ok">删除成功</string>
+    <string name="switch_ok">切换成功,请重启</string>
+    <string name="delete_fail">删除成功</string>
+    <string name="switch_fail">切换失败,请重试</string>
+    <string name="delete_ing">删除ing...</string>
+    <string name="switch_ing">切换ing...</string>
+    <string name="dlg_waiting">请等待...</string>
+</resources>

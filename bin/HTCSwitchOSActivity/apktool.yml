@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: HTCSwitchOSActivity.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '7'
+  targetSdkVersion: '15'
+packageInfo:
+  cur_package: com.huiendianzi.HTCSwitchOS
+  orig_package: com.huiendianzi.HTCSwitchOS
+compressionType: false

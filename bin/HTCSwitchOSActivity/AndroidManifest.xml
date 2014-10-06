@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" package="com.huiendianzi.HTCSwitchOS"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:debuggable="true">
+        <activity android:label="@string/app_name" android:name="com.adsmogo.adview.AdsMogoWebView" />
+        <service android:name="com.adsmogo.controller.service.UpdateService" android:exported="true" android:process=":remote" />
+        <service android:name="com.adsmogo.controller.service.CountService" android:exported="true" android:process=":remote" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="cn.domob.android.ads.DomobActivity" />
+        <activity android:name="com.tencent.exmobwin.banner.MobWINBrowserActivity" />
+        <activity android:theme="@*android:style/Theme.Dialog" android:name="com.tencent.exmobwin.banner.DialogActivity" />
+        <meta-data android:name="BaiduMobAd_DEBUG_TOKEN" android:value="baidu" />
+        <activity android:name="com.baidu.mobads.AppActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="@string/app_name" android:name="HTCSwitchOSActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+</manifest>

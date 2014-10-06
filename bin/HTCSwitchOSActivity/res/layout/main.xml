@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/listview_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:adsmogo="http://www.adsmogo.com">
+    <com.adsmogo.adview.AdsMogoLayout android:id="@id/adsMogoView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" adsmogo:appid="3648a102a6c9472a88c01b492b7858ad" adsmogo:express_mode="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottomlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/deletebutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/deletebutton" android:layout_weight="1.0" />
+        <Button android:id="@id/restartbutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/restartbutton" android:layout_weight="1.0" />
+        <Button android:id="@id/switchbootbutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/switchbootbutton" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ListView android:layout_gravity="top|center" android:id="@id/listView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomlayout" android:layout_below="@id/adsMogoView" />
+</RelativeLayout>

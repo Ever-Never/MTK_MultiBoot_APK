@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    xmlns:baiduadsdk = "http://schemas.android.com/apk/res/com.baidu.mobads.demo.main"
+    android:layout_height="fill_parent"
+    android:background="@drawable/listview_bg" >
+
+   <RelativeLayout android:id="@+id/adId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></RelativeLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/adId"
+            android:layout_gravity="center_horizontal|top" />
+        <LinearLayout
+            android:id="@+id/bottomlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+           
+
+            <Button
+                android:id="@+id/deletebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/deletebutton" />
+
+            <Button
+                android:id="@+id/restartbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/restartbutton" />
+
+            <Button
+                android:id="@+id/switchbootbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/switchbootbutton" />
+        </LinearLayout>
+
+        </RelativeLayout>
